@@ -1,0 +1,27 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.navbar {
+  background-color: #94ded5;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.navbar-nav {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+}
+.d-flex img {
+  height: 24px;
+  width: 24px;
+}
+
+.row {
+  padding-top: 5rem;
+  text-align: center;
+  background-color: #fff8f3;
+  background-image: url(/img/pictrees.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
