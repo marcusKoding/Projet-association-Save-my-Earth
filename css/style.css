@@ -17,11 +17,14 @@ body {
 }
 
 .row {
-  padding-top: 5rem;
+  padding: 7rem;
+  margin-top: 6rem;
   text-align: center;
   background-color: #fff8f3;
-  background-image: url(/img/pictrees.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
+}
+.row h1 {
+  font-size: 2rem;
+}
+.row button {
+  margin-top: 2rem;
 }
