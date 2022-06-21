@@ -20,10 +20,15 @@
       src="https://kit.fontawesome.com/90c2f345b2.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./img/earth.png" />
     <title>Sauve ma Terre</title>
   </head>
-  <body style="height: 2000px">
+  <body>
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
       <div class="container">
         <a href="#" class="navbar-brand mb-0 h1">
@@ -64,46 +69,105 @@
           </ul>
         </div>
         <form class="d-flex">
-          <button type="submit" class="btn btn-outline-success">
+          <button type="submit" class="btn btn-outline">
             Faire un Don <img src="/img/give.png" alt="give" />
           </button>
         </form>
       </div>
     </nav>
-
-    <div class="row">
-      <div>
-        <h1>Bienvenu sur notre page !</h1>
-        <h2>
-          Sauve ma Terre
-          <button type="button" class="btn btn-primary">
-            Liker
-            <img src="/img/liker.png" style="width: 15px" alt="pouce" />
-          </button>
-        </h2>
+    <div class="container welcome">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="first">
+            <h1>Bienvenue sur notre page !</h1>
+            <h2>Sauve ma Terre</h2>
+            <button type="button" class="btn btn-primary">
+              Liker
+              <img src="/img/liker.png" style="width: 15px" alt="pouce" />
+            </button>
+          </div>
+        </div>
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
     </div>
-    <!--
-    <div class="us">
-      <img src="./img/weAre.png" alt="img_nous" />
-      <h1>qui sommes nous ?</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
-        blanditiis facere sint rem id nulla ex temporibus totam eveniet illum.
-      </p>
-    </div>
-    <div class="event">
-      <h2>Évènements</h2>
-      <p>
-        Vous trouverez tous nos évènements avenis en allat sur la page suivante
-      </p>
-    </div>
-    <div class="where">
-      <h2>Où nous trouver</h2>
-    </div> -->
+    <div class="container container-histoire">
+      <div class="row">
+        <div class="col-sm-12">
+          <div>
+            <h2>Histoire</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              corrupti ea ex aperiam temporibus odio dolor minus excepturi ipsa
+              inventore. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Tenetur assumenda, eaque perspiciatis sint, voluptates quasi
+              architecto aspernatur at iste explicabo placeat laborum quibusdam
+              quae illum voluptate ratione ullam eligendi est odit nemo
+              reiciendis modi laboriosam quaerat commodi? Itaque inventore ex
+              recusandae totam consequatur, atque at architecto perspiciatis et
+              tenetur quisquam! Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Exercitationem assumenda perferendis labore
+              eligendi. Quibusdam repellendus labore iste voluptates quasi ad,
+              voluptas iusto expedita inventore ea enim assumenda error optio
+              nisi eaque quos magni temporibus cum provident odit laudantium
+              itaque possimus? Quas error alias, repellat cupiditate itaque
+              dolorum nobis expedita consequatur.
+            </p>
+            <br />
+          </div>
+        </div>
+      </div>
+
+      <div class="container-actu">
+        <h2>Actualités</h2>
+      </div>
+
+      <div class="row third">
+        <div class="col-sm-4 third-1">
+          <h3>Un Rechauffement Climatique...</h3>
+          <br />
+
+          <img src="/img/Pic-1.jpg" alt="pinguin" width="300px" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero
+            eligendi nihil error magni officiis iste sequi voluptatum minus
+            labore ipsam quas, deleniti ullam porro recusandae maiores natus.
+            Porro, at?...
+          </p>
+          <a class="btn btn-light" href="#" role="button">Lire l'article</a>
+        </div>
+        <div class="col-sm-4 third-1">
+          <h3>Une Extinction Progressive</h3>
+          <br />
+          <img
+            src="/img/DeadAnimals.jpg"
+            alt="doctor"
+            width="300px"
+            height="200px"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis enim
+            quis laudantium molestias officia. Magni voluptatum aliquam
+            quibusdam vero ratione, necessitatibus debitis fuga veniam illo,
+            mollitia impedit culpa labore rem.
+          </p>
+          <a class="btn btn-light" href="#" role="button">Lire l'article</a>
+        </div>
+        <div class="col-sm-4 third-1">
+          <h3>Polution et Pathologie</h3>
+          <br />
+          <img
+            src="/img/doctor.jpg"
+            alt="Animals no life"
+            width="300px"
+            height="200px"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia,
+            temporibus fugit quam explicabo, natus non dicta expedita similique
+            facere accusamus quas consequatur totam maiores debitis eos officia!
+            Eaque
+          </p>
+          <a class="btn btn-light" href="#" role="button">Lire l'article</a>
+        </div>
+      </div>
   </body>
 </html>
