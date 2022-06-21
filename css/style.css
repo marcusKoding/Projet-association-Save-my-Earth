@@ -1,8 +1,13 @@
+html,
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Oswald", sans-serif;
 }
 .navbar {
-  background-color: #94ded5;
+  background-color: #142850;
 }
 .navbar-brand {
   font-size: 1.5rem;
@@ -16,15 +21,67 @@ body {
   width: 24px;
 }
 
-.row {
-  padding: 7rem;
-  margin-top: 6rem;
+/* Bienvenue */
+
+.d-flex button {
+  color: #142850;
+  background-color: rgb(255, 255, 255);
+  border: solid #7a8499;
+}
+.d-flex button:hover {
+  background-color: #00a8cc;
+  border: solid #0c7b93;
+  color: #fff;
+}
+.welcome {
+  padding: 6rem;
+  color: #fff;
   text-align: center;
-  background-color: #fff8f3;
+  background-image: url(/img/Island.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
-.row h1 {
-  font-size: 2rem;
+.welcome h1 {
+  font-size: 2.6rem;
+  padding-top: 4rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
 }
-.row button {
+.welcome button {
   margin-top: 2rem;
+}
+
+/* Histoire */
+
+.container-histoire {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.container-actu {
+  text-align: center;
+  padding: 0 0 1.5rem 0;
+  font-size: 70px;
+}
+
+.third-1 {
+  color: #e6edef;
+  border: solid;
+  border-radius: 15px;
+  background-color: #040913;
+  padding: 3rem 0.8rem 4rem 0.8rem;
+  text-overflow: ellipsis;
+}
+.third img {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+.third img:hover {
+  -webkit-filter: blur(0);
+  filter: blur(0);
 }
