@@ -34,10 +34,10 @@ body {
   color: #fff;
 }
 .welcome {
-  padding: 6rem;
+  padding: 4rem;
   color: #fff;
   text-align: center;
-  background-image: url(/img/Island.jpg);
+  background-image: url(/img/bird.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -65,14 +65,15 @@ body {
   padding: 0 0 1.5rem 0;
   font-size: 70px;
 }
-
+.third {
+  margin-bottom: 25px;
+}
 .third-1 {
   color: #e6edef;
   border: solid;
   border-radius: 15px;
   background-color: #040913;
   padding: 3rem 0.8rem 4rem 0.8rem;
-  text-overflow: ellipsis;
 }
 .third img {
   -webkit-filter: blur(3px);
@@ -84,4 +85,7 @@ body {
 .third img:hover {
   -webkit-filter: blur(0);
   filter: blur(0);
+}
+.footer {
+  border-radius: 15px;
 }
