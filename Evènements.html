@@ -1,16 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/StyleEvent.css" />
-    <title>Les Évènements</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/eventStyle.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/90c2f345b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/earth.png" />
+    <title>Évènements</title>
   </head>
   <body>
-    <div>
-      <h1>Nos Évènements en France</h1>
+
+    <!-- header -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+      <div class="container">
+        
+        <a href="/index.html" class="navbar-brand mb-0 h1">
+          <img
+            class="d-line-block align-top"
+            src="/img/logo.png"
+            width="30"
+            height="30"
+            alt="Logo"
+          />
+          Sauve ma Terre
+        </a>
+        <div class="collapse navbar-collapse title" id="navbarNav">
+            <div>
+              <H1>Nos Évènements en france</H1>
+            </div>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <button type="submit" class="btn btn-outline">
+            Faire un Don <img src="/img/give.png" alt="give" />
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="container hautDePage">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Réservez vos places</h1>
+        </div>
+      </div>
     </div>
-    <img src="" alt="" />
+
+    <!-- Bordeaux -->
+    <div class="container firstThing">
+      <div class="row">
+        <div class="col-sm-4 img1">
+          <img src="/img/bordeaux.jpg"  alt="bordeaux">
+        </div>
+        <div class="col-sm-8 text1">
+          <h2>Bordeaux</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reiciendis ad sunt tenetur possimus harum delectus nulla optio enim consequuntur.</p>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary" type="button">Réserver</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- paris -->
+    <div class="container firstThing">
+      <div class="row">
+        <div class="col-sm-4 img2">
+          <img src="/img/paris.jpg" alt="Paris">
+        </div>
+        <div class="col-sm-8">
+          <h2>Paris</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis enim nulla magnam voluptates quia? Modi ipsum commodi itaque consectetur. Sint?</p>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary" type="button">Réserver</button>
+        </div>
+        <!-- nantes -->
+        <div class="container firstThing">
+          <div class="row">
+            <div class="col-sm-4 img1">
+              <img src="/img/nantes.jpg"  alt="Nantes">
+            </div>
+        <div class="col-sm-8">
+          <h2>Nantes</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quidem rem ut delectus reprehenderit iste sint hic a inventore. Cupiditate!</p>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary" type="button">Réserver</button>
+        </div>
+</div>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+          <section
+            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+          >
+            <div class="me-5 d-none d-lg-block">
+              <span>Retrouvez nous sur les réseaux :</span>
+            </div>
+        
+            <div>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </section>
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+        
+              <div class="row mt-3">
+        
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fa-solid fa-earth-americas me-3"></i>Sauver ma Terre
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus perspiciatis ullam pariatur illo velit ex voluptatibus cupiditate quam. Ex, consequatur.
+                  </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Nos partenaires
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Fish&risk</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Entreprise REPLANTE</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Vert chez moi</a>
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Nos associations
+                  </h6>
+                  <p>
+                    <p class="text-reset">Strasbourg</p>
+                  </p>
+                  <p>
+                    <p class="text-reset">Lyon</p>
+                  </p>
+                  <p>
+                    <p class="text-reset">Paris</p>
+                  </p>
+                  <p>
+                    <p class="text-reset">Bordeaux</p>
+                  </p>
+                </div>
+        
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Contact
+                  </h6>
+                  <p><i class="fas fa-home me-3"></i> 11 rue verdoyant 67100,Strasbourg</p>
+                  <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    info@savemyearth.com
+                  </p>
+                  <p><i class="fas fa-phone me-3"></i> 04 55 55 20 20</p>
+                </div>
+              </div>
+        
+            </div>
+          </section>
+        
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold">Marc khamchanh</a>
+          </div>
+        </footer>
+
   </body>
 </html>
