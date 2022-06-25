@@ -23,6 +23,11 @@ body {
   width: 24px;
 }
 
+.btnDon {
+  background-color: #ffffff;
+  color: #040913;
+}
+
 /* Bienvenue */
 
 .d-flex button {
@@ -134,5 +139,8 @@ body {
   }
   .welcome button {
     margin-bottom: 5rem;
+  }
+  .welcome img {
+    width: 110%;
   }
 }

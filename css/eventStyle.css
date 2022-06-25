@@ -31,9 +31,42 @@ body {
   height: 220px;
 }
 
+.firstThing a:hover {
+  background-color: rgb(143, 143, 143);
+  border: #d2e1ef;
+}
+
 .text1 {
   color: black;
   margin-top: 1rem;
+}
+h2 {
+  text-decoration: underline;
+}
+h3 {
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(117, 117, 117);
+}
+h4 {
+  font-size: 20px;
+}
+.firstThing a {
+  text-decoration: none;
+  color: #06283d;
+  border-radius: 15px;
+  margin: 0.8rem;
+  padding: 0 0.5rem 0 0.5rem;
+}
+a:hover {
+  color: #47b5ff;
+}
+p {
+  margin-top: 1.8rem;
+}
+
+.fa-solid {
+  color: rgb(193, 32, 32);
 }
 
 /* tailles ecrans */
