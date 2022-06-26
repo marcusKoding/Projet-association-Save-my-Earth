@@ -63,6 +63,11 @@ p {
   color: rgb(193, 32, 32);
 }
 
+.firstThing button {
+  background-color: #1f4690;
+  color: #ffffff;
+}
+
 .firstThing button:hover {
   background-color: rgb(75, 74, 74);
 }
