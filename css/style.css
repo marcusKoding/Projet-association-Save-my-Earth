@@ -46,7 +46,8 @@ body {
 }
 .welcome button:hover {
   box-shadow: 7px 5px 5px rgba(255, 255, 255, 0.326);
-  background-color: #20448a;
+  background-color: #ffffff;
+  color: #316feb;
 }
 
 /* Histoire */
@@ -68,7 +69,15 @@ body {
   padding: 4rem 0 1.5rem 0;
   font-size: 70px;
 }
+.btn {
+  color: #142850;
+  background-color: #fff;
+}
 
+.btnlike {
+  color: #fff;
+  background-color: #316feb;
+}
 .btn:hover {
   background-color: #7a849947;
   color: #fff;
