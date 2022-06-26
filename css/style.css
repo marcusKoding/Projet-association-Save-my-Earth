@@ -28,18 +28,6 @@ body {
   color: #040913;
 }
 
-/* Bienvenue */
-
-.d-flex button {
-  color: #142850;
-  background-color: rgb(255, 255, 255);
-  border: solid #7a8499;
-}
-.d-flex button:hover {
-  background-color: #00a8cc;
-  border: solid #0c7b93;
-  color: #fff;
-}
 .welcome {
   padding: 7rem;
   color: #fff;
