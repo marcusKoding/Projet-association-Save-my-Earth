@@ -30,12 +30,6 @@ body {
   width: 250px;
   height: 220px;
 }
-
-.firstThing a:hover {
-  background-color: rgb(143, 143, 143);
-  border: #d2e1ef;
-}
-
 .text1 {
   color: black;
   margin-top: 1rem;
@@ -67,6 +61,10 @@ p {
 
 .fa-solid {
   color: rgb(193, 32, 32);
+}
+
+.firstThing button:hover {
+  background-color: rgb(75, 74, 74);
 }
 
 /* tailles ecrans */

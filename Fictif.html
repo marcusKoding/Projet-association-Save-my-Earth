@@ -10,41 +10,84 @@
       href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Attention</title>
   </head>
   <style>
-    body {
-      background-color: black;
-      color: rgb(222, 255, 255);
-      text-align: center;
-      background-image: url(/img/fiction.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
-      font-family: "Staatliches", cursive;
+            body {
+              background-color: black;
+              color: rgb(222, 255, 255);
+              text-align: center;
+              background-image: url(/img/fiction.jpg);
+              background-size: 100%;
+              background-repeat: no-repeat;
+              font-family: "Staatliches", cursive;
+            }
+
+            h1 {
+          text-shadow: rgb(198, 5, 5) 1px 0 10px;
+          font-size: 3rem;
+           animation-duration: 1.5s;
+           animation-name: clignoter;
+           animation-iteration-count: infinite;
+           transition: none;
+        }
+        @keyframes clignoter {
+          0%   { opacity:1; }
+          40%   {opacity:0; }
+          100% { opacity:1; }
+        }
+    p{
+      font-size: 1.5rem;
     }
 
-    h1 {
-      text-shadow: rgb(198, 5, 5) 1px 0 10px;
-    }
+            .center {
+              margin-top: 6rem;
+              text-shadow: rgb(255, 255, 255) 1px 0 10px;
+            }
 
-    .center {
-      font-size: large;
-      margin-top: 6rem;
-      text-shadow: rgb(255, 255, 255) 1px 0 10px;
-    }
+            .center img {
+              width: 36%;
+            }
 
-    .center img {
-      width: 50%;
-    }
+            .center button {
+              border-radius: 5px;
+              background-color: rgba(70, 69, 69, 0.776);
+              color: aliceblue;
+              padding: 0.5rem;
+              box-shadow: 2px 2px 2px rgba(253, 73, 73, 0.564);
+              font-family: "Russo One", sans-serif;
+            }
+            .center button:hover {
+              background-color: rgba(143, 255, 255, 0.461);
+              color: rgb(255, 255, 255);
+              box-shadow: 2px 2px 2px rgb(212, 190, 255);
+            }
+            @media (max-width: 495px) {
+              .center img {
+                width: 100%;
+              }
+            }
+             @media (min-device-width:496px) and (max-device-width: 790px) {
+              .center img {
+                width: 60%;
+              } */
+            }
   </style>
   <body>
     <!-- <img src="/img/fiction.jpg" alt="Fition" /> -->
     <div class="center">
-      <h1>Attention</h1>
+      <h1>Attention !</h1>
       <p>
-        Ceci n'est pas un réel site pour une association, il a été créé lors
-        d'un projet de formation.
+        Ceci n'est q'un site fictif, ce n'est pas un réel site pour une
+        association.
       </p>
+      <form action="/index.html">
+        <button type="submit">Retour à la page principal</button>
+      </form>
       <img src="/img/etudiant.png" alt="student" />
     </div>
   </body>
